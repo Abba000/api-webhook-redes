@@ -45,7 +45,7 @@ const addLanguages = async (req, res) => {
 
         axios.post('http://localhost:4000/sendMail', {
             mensaje: `Se inserto con exito el alumno: ${ nombre + ' ' + apellido }`,
-            remitente: 'abbaagustin@outlook.com',
+            remitente: 'mail@outlook.com',
             asunto: 'asunto',
             token: 'token666'
         })
