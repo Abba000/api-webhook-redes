@@ -39,13 +39,13 @@ app.post('/sendMail', (req, res) => {
             service: 'outlook',
     
             auth: {
-              user: 'abbaagustin@outlook.com',
-              pass: 'a3537669593'
+              user: 'mail@outlook.com',
+              pass: 'pass'
             }
         });
     
         var mailOptions = {
-            from: 'abbaagustin@outlook.com',
+            from: 'mail@outlook.com',
             to: remitente,
             subject: asunto,
             text: mensaje
